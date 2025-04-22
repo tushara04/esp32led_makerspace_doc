@@ -12,14 +12,17 @@ The project involves using an ESP32, a mini development board, to control a litt
 ## Materials Used
 1. ESP32: an IoT mini development board with a 32bit RISC-V singlecore processor operational upto 160 MHz.
 
-![Design of an ESP32](/images/esp_merged.jpg)
+![Design of an ESP32](/images/esp_merged.jpg) <sup>1</sup>
 
 2. Blue LED: to be controlled through Alexa.
 3. Solderless Breadboard: used to temporarily connect the ESP to the LED.
 4. USB A-C: Used to connect the ESP32 to the laptop and transfer the code to the ESP. It is also used to allow for the laptop to act as a powersource for the circuit.
 5. Laptop with Arduino IDE installed: ASUS VivoBook Laptop with AMD Ryzen 7 4700U processor, 8.0 GiB RAM, 1.0 TB SSD storage, Arch Linux-based EndeavourOS, Arduino IDE 2.3.6.
 
-## Procedure <sup>1</sup>
+## Construction <sup>2</sup>
+### Setting up the software: 
+
+> **Note:** This is a callout box
 
 ## Questions
 
@@ -30,5 +33,6 @@ The project was carried out with the help of the Makerspace Lab team at Ashoka U
 
 ## References
 1. ESP32 image: https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/
+2. Makerspace documentation of the build: https://docs.google.com/document/d/1ILUwVJau7dqHt7u987nV3i2fWaezmoz3xmDAD6VhAEY/edit?tab=t.0
 
 ---
