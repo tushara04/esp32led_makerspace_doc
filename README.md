@@ -19,9 +19,16 @@ The project involves using an ESP32, a mini development board, to control a litt
 4. USB A-C: Used to connect the ESP32 to the laptop and transfer the code to the ESP. It is also used to allow for the laptop to act as a powersource for the circuit.
 5. Laptop with Arduino IDE installed: ASUS VivoBook Laptop with AMD Ryzen 7 4700U processor, 8.0 GiB RAM, 1.0 TB SSD storage, Arch Linux-based EndeavourOS, Arduino IDE 2.3.6.
 
+## Procedure <sup>1</sup>
 
+## Questions
+
+## Challenges Faced
 
 ## Acknowledgement
 The project was carried out with the help of the Makerspace Lab team at Ashoka University on 21st April 2025.
+
+## References
+1. ESP32 image: https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/
 
 ---
