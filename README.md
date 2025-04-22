@@ -12,8 +12,13 @@ The project involves using an ESP32, a mini development board, to control a litt
 ## Materials Used
 1. ESP32: an IoT mini development board with a 32bit RISC-V singlecore processor operational upto 160 MHz.
 <figure>
-    <img src = "images/esp_front.png" alt = "front" style ="width:200px;"/>
+    <img src = "images/esp_front.png" alt = "front" style ="width:500px;"/>
     <figcaption>Front View of an ESP32<sup>1</sup></figcaption>
+    <img src = "images/esp_back.png" alt = "back" style ="width:500px;"/>
+    <figcaption>Back View of an ESP32<sup>1</sup></figcaption>
+    <img src = "images/esp_back_detailed.png" alt = "detailed" style ="width:500px;"/>
+    <figcaption>Back View of an ESP32 with labels<sup>1</sup></figcaption>
+
 </figure>
 
 2. Blue LED
