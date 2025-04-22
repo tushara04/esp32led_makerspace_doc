@@ -15,6 +15,7 @@ The project involves using an ESP32, a mini development board, to control a litt
     <img src = "images/esp_front.png" alt = "front" style ="width:200px;"/>
     <figcaption>Front View of an ESP32<sup>1</sup></figcaption>
 </figure>
+
 2. Blue LED
 3. Solderless Breadboard: used to temporarily connect the ESP to the LED.
 4. USB A-C: Used to connect the ESP32 to the laptop and transfer the code to the ESP. It is also used to allow for the laptop to act as a powersource for the circuit.
