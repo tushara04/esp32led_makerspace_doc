@@ -12,7 +12,7 @@ The project involves using an ESP32, a mini development board, to control a litt
 ## Materials Used
 1. ESP32: an IoT mini development board with a 32bit RISC-V singlecore processor operational upto 160 MHz.
 
-![Design of an ESP32]("/images/esp_merged.jpg")
+![Design of an ESP32](/images/esp_merged.jpg)
 
 2. Blue LED
 3. Solderless Breadboard: used to temporarily connect the ESP to the LED.
