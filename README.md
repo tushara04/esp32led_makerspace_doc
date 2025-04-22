@@ -154,7 +154,7 @@ Once the code has been edited appropriately as instructed in comments and put on
 ### Setting up the hardware:
 To setup the hardware, connect the ESP to the breadboard, and connect the positive terminal of the LED (the longer leg) to the D10 pin and negative terminal (the shorter leg) to the GND pin. D10 is a GPIO (General Purpose Input/Output) pin, which allows the sending of a signal from the ESP to the LED through the breadboard. GND is a ground pin, which completes the circuit.
 
-![Circuit](/images/Screenshot From 2025-04-23 00-38-08.png)
+![Circuit](/images/circuit.png)
 
 The computer acts as a power source for the circuit. After the code is uploaded on the ESP, it can be unplugged from the laptop. A different power source can be used for the circuit. To make changes to the code, however, the ESP has to be connected back to the computer.
 
