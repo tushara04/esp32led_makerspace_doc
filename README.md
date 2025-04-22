@@ -27,7 +27,7 @@ After done installing, plug the ESP to the computer, and click on "Select Board"
 
 > **tip: slow wifi interrupts the process of downloading the packages and causes it to get stuck; good wifi connection is recommended to save time.**
 
-Finally, from the Library Manager, on the left toolbar, install "FauxmoESP” by Paul Vint and "Async TCP” by ESP32Async. FauxmoESP enables the Amazon Alexa support for the ESP32, wherein the device can be voice controlled using Amazon Echo. Async TCP enables a network environment for the ESP32.
+Finally, from the Library Manager, on the left toolbar, install "![FauxmoESP](https://github.com/vintlabs/fauxmoESP)” by Paul Vint and "![Async TCP](https://github.com/ESP32Async/AsyncTCP)” by ESP32Async. FauxmoESP enables the Amazon Alexa support for the ESP32, wherein the device can be voice controlled using Amazon Echo. Async TCP enables a network environment for the ESP32.
 
 At this point, the software setup is pretty much done; only the code needs to be setup:
 
@@ -149,9 +149,15 @@ void loop() {
   // fauxmo.setState(ID_MY_LED, true, 255);
 }
 ```
-Once the code has been edited appropriately as instructed in comments, and it is put on the IDE, the software set up is finished.
+Once the code has been edited appropriately as instructed in comments and put on the IDE, the software set up is finished.
 
 ### Setting up the hardware:
+To setup the hardware, connect the ESP to the breadboard, and connect the positive terminal of the LED (the longer leg) to the D10 pin and negative terminal (the shorter leg) to the GND pin. D10 is a GPIO (General Purpose Input/Output) pin, which allows the sending of a signal from the ESP to the LED through the breadboard. GND is a ground pin, which completes the circuit.
+
+![Circuit](/images/Screenshot From 2025-04-23 00-38-17.png)
+
+The computer acts as a power source for the circuit. After the code is uploaded on the ESP, it can be unplugged from the laptop. A different power source can be used for the circuit. To make changes to the code, however, the ESP has to be connected back to the computer.
+
 
 
 ## Acknowledgement
