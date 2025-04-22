@@ -14,7 +14,7 @@ The project involves using an ESP32, a mini development board, to control a litt
 
 ![Design of an ESP32](/images/esp_merged.jpg)
 
-2. Blue LED
+2. Blue LED: to be controlled through Alexa.
 3. Solderless Breadboard: used to temporarily connect the ESP to the LED.
 4. USB A-C: Used to connect the ESP32 to the laptop and transfer the code to the ESP. It is also used to allow for the laptop to act as a powersource for the circuit.
 5. Laptop with Arduino IDE installed: ASUS VivoBook Laptop with AMD Ryzen 7 4700U processor, 8.0 GiB RAM, 1.0 TB SSD storage, Arch Linux-based EndeavourOS, Arduino IDE 2.3.6.
