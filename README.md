@@ -162,7 +162,9 @@ The computer acts as a power source for the circuit. After the code is uploaded 
 After the software and the hardware are set up, compile and upload the code to the ESP by pressing the right arrow icon on top. The Output section and the Serial Monitor section (opened by clicking on the magnifying glass icon on top right) can be studied to understand the output from the ESP. Any error or changes are highlighted there. The Alexa device can now be asked to discover devices. Once it is done, asking Alexa to turn on the device (using the device name) should turn the LED on.
 
 > **Note for linux users**
+
 At this step, I faced some issues wherein the IDE was denied permission to access the serial port to which the ESP was connected, inhibiting communication. I realized it was because I was on linux and the IDE had to be provided root access to the port. If you face the same issue, follow the steps ahead.
+
 
 
 ## Acknowledgement
