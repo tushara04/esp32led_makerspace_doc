@@ -149,16 +149,22 @@ void loop() {
   // fauxmo.setState(ID_MY_LED, true, 255);
 }
 ```
-Once the code has been edited appropriately as instructed in comments and put on the IDE, the software set up is finished.
+Once the code has been edited appropriately as instructed in comments and put on the IDE, the software set up is finished. The Alexa device is connected to the same wifi, hence allowing a connection between the ESP32 circuit and Echo.
 
 ### Setting up the hardware:
 To setup the hardware, connect the ESP to the breadboard, and connect the positive terminal of the LED (the longer leg) to the D10 pin and negative terminal (the shorter leg) to the GND pin. D10 is a GPIO (General Purpose Input/Output) pin, which allows the sending of a signal from the ESP to the LED through the breadboard. GND is a ground pin, which completes the circuit.
 
 <img src = "/images/circuit.png" alt = "circuit" width = "600"/>
 
-The computer acts as a power source for the circuit. After the code is uploaded on the ESP, it can be unplugged from the laptop. A different power source can be used for the circuit. To make changes to the code, however, the ESP has to be connected back to the computer.
+The computer acts as a power source for the circuit. After the code is uploaded on the ESP, it can be unplugged from the laptop. A different power source can be used for the circuit. To make changes to the code, however, the ESP has to be connected back to the computer. The hardware setup is complete.
 
+### Lighting up the LED
+After the software and the hardware are set up, compile and upload the code to the ESP by pressing the right arrow icon on top. The Output section and the Serial Monitor section (opened by clicking on the magnifying glass icon on top right) can be studied to understand the output from the ESP. Any error or changes are highlighted there. The Alexa device can now be asked to discover devices. Once it is done, asking Alexa to turn on the device (using the device name) should turn the LED on.
 
+> **for linux users: at this step, I faced some issues wherein the IDE was denied permission to access the serial port to which the ESP was connected, inhibiting communication. I realized it was because I was on linux and the IDE had to be provided root access to the port. If you face the same issue, follow the steps ahead.**
+
+#### Providing IDE with an access to the port
+hello
 
 ## Acknowledgement
 The project was carried out with the help of the Makerspace Lab team at Ashoka University on 21st April 2025.
