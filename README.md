@@ -31,9 +31,9 @@ Finally, from the Library Manager, on the left toolbar, install "FauxmoESP” by
 
 At this point, the software setup is pretty much done. Only the code needs to be setup:
 
-'''
+```
 your mom
-'''
+```
 
 ## Acknowledgement
 The project was carried out with the help of the Makerspace Lab team at Ashoka University on 21st April 2025.
