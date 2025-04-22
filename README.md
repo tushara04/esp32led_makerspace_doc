@@ -5,7 +5,7 @@ The project involves using an ESP32, a mini development board, to control a litt
 
 The documentation hopes to serve anyone who is interested in building something fun. It assumes no expertise in any of the components described.
 
-![front of an esp](images/esp_front.png)
+![front of an esp](images/esp_front.png|250)
 
 
 ## Acknowledgement
