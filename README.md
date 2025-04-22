@@ -6,7 +6,7 @@ The project involves using an ESP32, a mini development board, or more formally,
 ## Milestones
 1. Set up the software: install the Arduino IDE, the necessary packages, and set up the code.
 2. Set up the hardware: connect the ESP and the LED to the breadboard and the entire setup to the laptop for powersource.
-3. Testing the prototype: use Alexa to turn on or off the LED.
+3. Lighting up the LED: use Alexa to turn on or off the LED and test the prototype.
 4. Further tweaks: edit the code to play around with the LED further.
 
 ## Materials Used
@@ -179,6 +179,10 @@ When a USB serial device is plugged into a port, a file that represents the conn
 and reboot the laptop. The user is now in the uucp group, making the port accessible to the IDE.
 
 ---
+### Further Tweaks
+After the LED lights up, the build is complete. The Alexa can now be used to control the LED. The code can further be edited to allow Alexa to control its brightness, have it blink, etc. Any adjustments supported by the LED can be integrated in the code and be controlled using Alexa. I tried changing the brightness of the LED by making some edits to the code, and while the Serial Monitor highlighted the changes made on the brightness using Alexa, the LED showed no distinction. The code and the setup need to be further played with to make these to work.
+
+> **tip: be careful when assigning name to your device. If it's hard to catch, given your accent or surrounding noise, Alexa may not be able to identify the device and control it. After it didn't work for me, I changed the name, but it stopped working, and any name wouldn't work. Later I realized, the new names, for some reason which I haven't yet figured out, were not getting registered, and the original name was still saved but just poorly heard before.**
 
 ## Acknowledgement
 The project was carried out with the help of the Makerspace Lab team at Ashoka University on 21st April 2025.
@@ -187,6 +191,5 @@ The project was carried out with the help of the Makerspace Lab team at Ashoka U
 1. ESP32 documentation: https://docs.espressif.com/projects/arduino-esp32/en/latest/getting_started.html
 2. ESP32 image: https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/
 3. Makerspace documentation of the build: https://docs.google.com/document/d/1ILUwVJau7dqHt7u987nV3i2fWaezmoz3xmDAD6VhAEY/edit?tab=t.0
-3. 
 
 ---
