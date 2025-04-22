@@ -161,11 +161,19 @@ The computer acts as a power source for the circuit. After the code is uploaded 
 ### Lighting up the LED
 After the software and the hardware are set up, compile and upload the code to the ESP by pressing the right arrow icon on top. The Output section and the Serial Monitor section (opened by clicking on the magnifying glass icon on top right) can be studied to understand the output from the ESP. Any error or changes are highlighted there. The Alexa device can now be asked to discover devices. Once it is done, asking Alexa to turn on the device (using the device name) should turn the LED on.
 
-> **Note for linux users**
+---
+> **Note for linux users:**
+At this step, I faced some issues wherein the IDE was denied permission to access the serial port to which the ESP was connected, inhibiting communication. I realized it was because I was on linux and the IDE had to be provided with root access to the port. If you face the same issue, follow the steps ahead. 
 
-At this step, I faced some issues wherein the IDE was denied permission to access the serial port to which the ESP was connected, inhibiting communication. I realized it was because I was on linux and the IDE had to be provided root access to the port. If you face the same issue, follow the steps ahead.
+<img src = "/images/permission_error.png" alt = "circuit" width = "600"/>
 
+When a USB serial device is plugged into a port, a file that represents the connection gets created on the system. This filed is owned by root and is accessible by users in the uucp group. Linux uses group permissions where access to certain files are given only to the users belonging to a group. This way a user in the group can read or write the file without requiring root access. The uucp group controls access to the serial ports. The issue here is the user does not belong to the uucp group, and therefore does not have access to the serial port. To add the user to the group, type the following in the terminal:
 
+`sudo usermod -aG uucp $USER`
+
+and reboot the laptop. The user is now in the uucp group, making the port accessible to the IDE.
+
+---
 
 ## Acknowledgement
 The project was carried out with the help of the Makerspace Lab team at Ashoka University on 21st April 2025.
