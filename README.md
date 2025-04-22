@@ -29,7 +29,7 @@ After done installing, plug the ESP to the computer, and click on "Select Board"
 
 Finally, from the Library Manager, on the left toolbar, install "FauxmoESP” by Paul Vint and "Async TCP” by ESP32Async. FauxmoESP enables the Amazon Alexa support for the ESP32, wherein the device can be voice controlled using Amazon Echo. Async TCP enables a network environment for the ESP32.
 
-At this point, the software setup is pretty much done. Only the code needs to be setup:
+At this point, the software setup is pretty much done; only the code needs to be setup:
 
 ```
 #include <Arduino.h>
@@ -43,8 +43,8 @@ At this point, the software setup is pretty much done. Only the code needs to be
 fauxmoESP fauxmo;
 
 // -----------------------------------------------------------------------------
-// ADD WIFI CREDENTIALS HERE
-#define WIFI_SSID "..." // replace the ... with input
+// ADD WIFI CREDENTIALS HERE; replace the ... with input
+#define WIFI_SSID "..."
 #define WIFI_PASS "..."
 
 #define SERIAL_BAUDRATE 115200
@@ -149,6 +149,10 @@ void loop() {
   // fauxmo.setState(ID_MY_LED, true, 255);
 }
 ```
+Once the code has been edited appropriately as instructed in comments, and it is put on the IDE, the software set up is finished.
+
+### Setting up the hardware:
+
 
 ## Acknowledgement
 The project was carried out with the help of the Makerspace Lab team at Ashoka University on 21st April 2025.
