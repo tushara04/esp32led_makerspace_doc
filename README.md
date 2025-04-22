@@ -166,7 +166,7 @@ After the software and the hardware are set up, compile and upload the code to t
 <img src = "/images/lit_up.jpg" alt = "light" width = "600"/>
 
 ---
-> **Note for linux users:**
+#### Note for linux users:
 
 At this step, I faced some issues wherein the IDE was denied permission to access the serial port to which the ESP was connected, inhibiting communication. I realized it was because I was on linux and the IDE had to be provided with root access to the port. If you face the same issue, follow the steps ahead. 
 
