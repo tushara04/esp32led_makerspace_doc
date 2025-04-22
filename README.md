@@ -15,13 +15,13 @@ The project involves using an ESP32, a mini development board, or more formally,
 2. Blue LED: to be controlled through Alexa.
 3. Solderless Breadboard: used to temporarily connect the ESP to the LED.
 4. USB A-C: Used to connect the ESP32 to the laptop and transfer the code to the ESP. It is also used to allow for the laptop to act as a powersource for the circuit.
-5. Laptop with Arduino IDE installed: ASUS VivoBook Laptop with AMD Ryzen 7 4700U processor, 8.0 GiB RAM, 1.0 TB SSD storage, Arch Linux-based EndeavourOS, Arduino IDE 2.3.6.
+5. Laptop with Arduino IDE installed: ASUS VivoBook Laptop with AMD Ryzen 7 4700U processor, 8.0 GiB RAM, 1.0 TB SSD storage, Arch Linux-based EndeavourOS, and Arduino IDE 2.3.6.
 
 ## Construction <sup>3</sup>
 ### Setting up the software: 
 After Arduino IDE is installed from the ![official website](https://www.arduino.cc/maker), install ESP32 board manager, provided by Espressif Systems, from a toolbar on the left of the IDE. This is the Arduino core for the ESP32, which allows for the IDE to work with the ESP we have. 
 
-> **note: some guides, including the official one, suggests putting a release link into the Additional Board Manager URLs field in the Preference section where the IDE looks for the packages, but what we need are now natively present on the IDE's Board Manager and Library Manager, so this step is inessential.**
+> **note: some guides, including the official one, suggest putting a release link into the Additional Board Manager URLs field in the Preference section where the IDE looks for the packages, but what we need are now natively present on the IDE's Board Manager and Library Manager, so this step is inessential.**
 
 After done installing, plug the ESP to the computer, and click on "Select Board" dropdown in the top panel, then "Select other board and port...", and find "XIAO_ESP32C3" (our ESP model) and the port the ESP is connected to. Choosing the correct board and port allow for the compilation and upload of the code/sketch to the ESP.
 
